@@ -1,0 +1,89 @@
+body{
+background-repeat: no-repeat;background-position: center;background-size: cover;
+
+}
+
+#heading_1{
+
+width: 100%; background-image:linear-gradient(rgb(4, 182, 182),turquoise, paleturquoise);margin: 0;
+text-align: center;padding: 20px;font-family: 'Cochin';box-shadow:  10px 10px 30px teal;
+}
+
+.heading_2{
+background-color: lightgreen;float: none;padding: 10px;border-radius: 60px;border: 4px outset darkgreen;
+font-family: 'Courier New';  font-weight: bold;box-shadow: 10px 10px 20px greenyellow;border-left-color: lightseagreen;border-right-color: lightseagreen;animation: move 3s infinite;
+}
+
+@keyframes move{
+    50% {border-right-color: blue;}
+
+    50% {border-left-color: lightblue;}
+
+
+}
+
+
+.heading_2 img{
+border: 2px solid palegoldenrod;
+
+}
+
+.heading_2 span{
+margin-right: 30px;font-size: 17px;  visibility: hidden;  font-family: 'Trebuchet MS';
+
+
+}
+
+.heading_2:hover span{
+
+    visibility: visible;
+   
+}
+
+canvas{
+    border: 4px dashed darkolivegreen;
+    animation-name: ani;
+    animation-duration: 1.3s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    margin-top: 160px;
+    }
+    
+    @keyframes ani{
+    from {box-shadow: 5px 5px 30px darkgreen;}
+    
+    to {box-shadow: 3px 3px 30px darkseagreen;}
+
+}
+    
+
+p{
+font-family: 'Cochin';background-color: paleturquoise;width:200px;border: 1px solid black;box-shadow: 5px 5px 10px black;font-size: 19px;
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color:cornflowerblue;
+    color: black;
+    font-family: 'Courier New';
+    width: 100%;
+    line-height: 2.5;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#name, #percent{
+    color: red; font-weight: bold;font-size: 20px;background-color: yellow;font-family: 'Verdana';
+
+
+}
+
+#result_image img{
+
+border: 2px solid navy;
+
+
+}
